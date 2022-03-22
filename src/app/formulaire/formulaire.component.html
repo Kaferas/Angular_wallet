@@ -1,0 +1,21 @@
+<div>
+	<form>
+		<h1>Ajouter Nouveau Post</h1>
+		<div class="row">
+			<label for="">Title:</label>
+			<input type="text" class="best" #newtitle>
+		</div>
+		<div class="row">
+			<label>Link :</label>
+			<input type="text" #newlink>
+		</div>
+		<div class="row">
+			<input type="submit" value="Poster" (click)="PostNow(newtitle,newlink)">
+		</div>
+	</form>
+	<div>
+		<app-article *ngFor="let article of sortedArticles()" 
+			[article]="article">
+		</app-article>
+	</div>
+</div>

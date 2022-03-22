@@ -1,0 +1,24 @@
+.content
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	min-width: 420px;
+	justify-content: space-around;
+}
+.content div
+{
+	width: 20%;
+	min-width: 300px;
+	padding: 30px;
+	text-align: center;
+	background-color: rebeccapurple;
+	opacity: .8;
+	color: white;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow:10px 8px 10px rgba(0,0,0,.5);
+}

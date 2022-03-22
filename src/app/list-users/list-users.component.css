@@ -1,0 +1,10 @@
+.beau
+{
+	background-color: rgba(0,0,0,.6);
+	width: 30vw;
+	height: 20px;
+	margin: 4px;
+color: whitesmoke;	
+display: flex;
+justify-content: center;
+}

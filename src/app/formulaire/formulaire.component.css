@@ -1,0 +1,45 @@
+.row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+}
+label{
+	width: 120px;
+	font-family: algerian;
+	font-weight: italic;
+	color: black;
+}
+input{
+	border-radius: 3px;
+	border: 1px solid grey;
+	color: black;
+	text-indent: 10px;
+	padding: 5px;
+	font-weight: bold;
+	font-style: italic;
+}
+input[type='submit']
+{
+	width: 80px;
+	background-color: #E1A624;
+	color: white;
+	border-radius: 5px;
+}
+form{
+	background-color: #AD956B;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 10px skyblue;
+	/*opacity: .6;*/
+	color : black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+form h1{
+	font-size: 1.4em;
+	font-style: italic;
+	margin-bottom: 10px;
+}

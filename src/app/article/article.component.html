@@ -1,0 +1,20 @@
+<div class="row">
+	<div class="points">
+		<h1>
+			{{article.votes}}
+		</h1>
+		<p>
+			Points
+		</p>
+	</div>
+	<div class="titleandVote">
+		<div>
+			<h1>{{article.title}}</h1>
+			<i><a href="{{article.link}}">{{article.link}}</a></i>
+		</div>
+		<div class="rate">
+			<a href="" (click)="downVote()">🔻DownVote</a>
+			<a href="" (click)="upVote()">🔼Upvote</a>
+		</div>
+	</div>
+</div>
